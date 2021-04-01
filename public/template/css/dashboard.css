@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.dashboard {
+  height: 100vh;
+  min-height: 100vh;
+}
+.sidebar {
+  background: #000;
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.box.sidemenu {
+  background: #171927;
+  padding: 40px 30px;
+  font-size: 14px;
+}
+
+a.menuitem {
+  color: #fff !important;
+}
+.menuitem:not(:first-child) {
+  margin-top: 20px;
+}
+
+.section-padding {
+  padding: 60px 40px;
+}
